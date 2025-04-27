@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeke Server</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #111, #222);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .card {
+            background: #222;
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 2rem;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .play-icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+        .server-info {
+            margin-top: 1.5rem;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            Zeke Server
+        </h1>
+        <p>Welcome to our Minecraft server!</p>
+        
+        <a href="https://youtube.com/@ilikeyoutube796" class="btn" target="_blank">
+            <svg class="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            Visit Our YouTube
+        </a>
+        
+        <div class="server-info">
+            <p>Server IP: play.zekeserver.com</p>
+            <p>(Coming Soon)</p>
+        </div>
+    </div>
+</body>
+</html>
